@@ -1,1 +1,138 @@
-<?xml version="1.0" encoding="UTF-8"?><xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI" xmlns:type3="http:///org/cleartk/syntax/dependency/type.ecore" xmlns:type5="http:///org/cleartk/ne/type.ecore" xmlns:tcas="http:///uima/tcas.ecore" xmlns:type4="http:///org/cleartk/token/type.ecore" xmlns:type2="http:///org/cleartk/syntax/constituent/type.ecore" xmlns:type="http:///org/cleartk/score/type.ecore" xmlns:ne="http:///org/cleartk/type/ne.ecore" xmlns:examples="http:///org/apache/uima/examples.ecore" xmi:version="2.0"><cas:NULL xmi:id="0"/><cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView" mimeType="text" sofaString="Where was the meeting between Amrozi Nurhasyim and Abu Bakar Bashir?"/><tcas:DocumentAnnotation xmi:id="8" sofa="1" begin="0" end="68" language="en"/><examples:SourceDocumentInformation xmi:id="13" sofa="1" begin="0" end="0" uri="file:/home/ruil/workspace/git/QuestionAnalysis/src/main/resources/inputData/q0.txt" offsetInSource="0" documentSize="68" lastSegment="false"/><type4:Token xmi:id="21" sofa="1" begin="0" end="5" score="0.0" pos="WRB" lemma="where"/><type4:Token xmi:id="29" sofa="1" begin="6" end="9" score="0.0" pos="VBD" lemma="be"/><type4:Token xmi:id="37" sofa="1" begin="10" end="13" score="0.0" pos="DT" lemma="the"/><type4:Token xmi:id="45" sofa="1" begin="14" end="21" score="0.0" pos="NN" lemma="meeting"/><type4:Token xmi:id="53" sofa="1" begin="22" end="29" score="0.0" pos="IN" lemma="between"/><type4:Token xmi:id="61" sofa="1" begin="30" end="36" score="0.0" pos="NNP" lemma="Amrozi"/><type4:Token xmi:id="69" sofa="1" begin="37" end="46" score="0.0" pos="NNP" lemma="Nurhasyim"/><type4:Token xmi:id="77" sofa="1" begin="47" end="50" score="0.0" pos="CC" lemma="and"/><type4:Token xmi:id="85" sofa="1" begin="51" end="54" score="0.0" pos="NNP" lemma="Abu"/><type4:Token xmi:id="93" sofa="1" begin="55" end="60" score="0.0" pos="NNP" lemma="Bakar"/><type4:Token xmi:id="101" sofa="1" begin="61" end="67" score="0.0" pos="NNP" lemma="Bashir"/><type4:Token xmi:id="109" sofa="1" begin="67" end="68" score="0.0" pos="." lemma="?"/><type5:NamedEntityMention xmi:id="117" sofa="1" begin="30" end="46" score="0.0" mentionType="PERSON" mentionedEntity="619"/><type5:NamedEntityMention xmi:id="127" sofa="1" begin="51" end="67" score="0.0" mentionType="PERSON" mentionedEntity="629"/><type5:NamedEntityMention xmi:id="137" sofa="1" begin="10" end="67" score="0.0" mentionedEntity="639"/><type5:NamedEntityMention xmi:id="147" sofa="1" begin="30" end="67" score="0.0" mentionedEntity="649"/><type4:Sentence xmi:id="157" sofa="1" begin="0" end="68" score="0.0"/><type2:TreebankNode xmi:id="162" sofa="1" begin="0" end="5" score="0.0" nodeType="WHADVP" leaf="false" parent="439" children="176"/><type2:TreebankNode xmi:id="176" sofa="1" begin="0" end="5" score="0.0" nodeType="WRB" leaf="true" parent="162" children=""/><type2:TreebankNode xmi:id="189" sofa="1" begin="6" end="67" score="0.0" nodeType="SQ" leaf="false" parent="439" children="204 217"/><type2:TreebankNode xmi:id="204" sofa="1" begin="6" end="9" score="0.0" nodeType="VBD" leaf="true" parent="189" children=""/><type2:TreebankNode xmi:id="217" sofa="1" begin="10" end="67" score="0.0" nodeType="NP" leaf="false" parent="189" children="232 273"/><type2:TreebankNode xmi:id="232" sofa="1" begin="10" end="21" score="0.0" nodeType="NP" leaf="false" parent="217" children="247 260"/><type2:TreebankNode xmi:id="247" sofa="1" begin="10" end="13" score="0.0" nodeType="DT" leaf="true" parent="232" children=""/><type2:TreebankNode xmi:id="260" sofa="1" begin="14" end="21" score="0.0" nodeType="NN" leaf="true" parent="232" children=""/><type2:TreebankNode xmi:id="273" sofa="1" begin="22" end="67" score="0.0" nodeType="PP" leaf="false" parent="217" children="288 301"/><type2:TreebankNode xmi:id="288" sofa="1" begin="22" end="29" score="0.0" nodeType="IN" leaf="true" parent="273" children=""/><type2:TreebankNode xmi:id="301" sofa="1" begin="30" end="67" score="0.0" nodeType="NP" leaf="false" parent="273" children="317 358 371"/><type2:TreebankNode xmi:id="317" sofa="1" begin="30" end="46" score="0.0" nodeType="NP" leaf="false" parent="301" children="332 345"/><type2:TreebankNode xmi:id="332" sofa="1" begin="30" end="36" score="0.0" nodeType="NNP" leaf="true" parent="317" children=""/><type2:TreebankNode xmi:id="345" sofa="1" begin="37" end="46" score="0.0" nodeType="NNP" leaf="true" parent="317" children=""/><type2:TreebankNode xmi:id="358" sofa="1" begin="47" end="50" score="0.0" nodeType="CC" leaf="true" parent="301" children=""/><type2:TreebankNode xmi:id="371" sofa="1" begin="51" end="67" score="0.0" nodeType="NP" leaf="false" parent="301" children="387 400 413"/><type2:TreebankNode xmi:id="387" sofa="1" begin="51" end="54" score="0.0" nodeType="NNP" leaf="true" parent="371" children=""/><type2:TreebankNode xmi:id="400" sofa="1" begin="55" end="60" score="0.0" nodeType="NNP" leaf="true" parent="371" children=""/><type2:TreebankNode xmi:id="413" sofa="1" begin="61" end="67" score="0.0" nodeType="NNP" leaf="true" parent="371" children=""/><type2:TreebankNode xmi:id="426" sofa="1" begin="67" end="68" score="0.0" nodeType="." leaf="true" parent="439" children=""/><type2:TopTreebankNode xmi:id="439" sofa="1" begin="0" end="68" score="0.0" nodeType="SBARQ" leaf="false" children="162 189 426" treebankParse="(SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (NP (DT the) (NN meeting)) (PP (IN between) (NP (NP (NNP Amrozi) (NNP Nurhasyim)) (CC and) (NP (NNP Abu) (NNP Bakar) (NNP Bashir)))))) (. ?))"/><type3:DependencyRelation xmi:id="457" score="0.0" Head="606" Relation="advmod" Child="502"/><type3:DependencyRelation xmi:id="462" score="0.0" Head="606" Relation="nsubj" Child="526"/><type3:DependencyRelation xmi:id="467" score="0.0" Head="526" Relation="det" Child="514"/><type3:DependencyRelation xmi:id="472" score="0.0" Head="526" Relation="prep_between" Child="553"/><type3:DependencyRelation xmi:id="477" score="0.0" Head="526" Relation="prep_between" Child="591"/><type3:DependencyRelation xmi:id="482" score="0.0" Head="553" Relation="nn" Child="541"/><type3:DependencyRelation xmi:id="487" score="0.0" Head="553" Relation="conj_and" Child="591"/><type3:DependencyRelation xmi:id="492" score="0.0" Head="591" Relation="nn" Child="567"/><type3:DependencyRelation xmi:id="497" score="0.0" Head="591" Relation="nn" Child="579"/><type3:DependencyNode xmi:id="502" sofa="1" begin="0" end="5" score="0.0" HeadRelations="457" ChildRelations=""/><type3:DependencyNode xmi:id="514" sofa="1" begin="10" end="13" score="0.0" HeadRelations="467" ChildRelations=""/><type3:DependencyNode xmi:id="526" sofa="1" begin="14" end="21" score="0.0" HeadRelations="462" ChildRelations="467 472 477"/><type3:DependencyNode xmi:id="541" sofa="1" begin="30" end="36" score="0.0" HeadRelations="482" ChildRelations=""/><type3:DependencyNode xmi:id="553" sofa="1" begin="37" end="46" score="0.0" HeadRelations="472" ChildRelations="482 487"/><type3:DependencyNode xmi:id="567" sofa="1" begin="51" end="54" score="0.0" HeadRelations="492" ChildRelations=""/><type3:DependencyNode xmi:id="579" sofa="1" begin="55" end="60" score="0.0" HeadRelations="497" ChildRelations=""/><type3:DependencyNode xmi:id="591" sofa="1" begin="61" end="67" score="0.0" HeadRelations="477 487" ChildRelations="492 497"/><type3:TopDependencyNode xmi:id="606" sofa="1" begin="6" end="9" score="0.0" HeadRelations="" ChildRelations="457 462"/><type5:NamedEntity xmi:id="619" score="0.0" mentions="117"/><type5:NamedEntity xmi:id="629" score="0.0" mentions="127"/><type5:NamedEntity xmi:id="639" score="0.0" mentions="137"/><type5:NamedEntity xmi:id="649" score="0.0" mentions="147"/><cas:View sofa="1" members="8 13 21 29 37 45 53 61 69 77 85 93 101 109 117 127 137 147 157 162 176 189 204 217 232 247 260 273 288 301 317 332 345 358 371 387 400 413 426 439 457 462 467 472 477 482 487 492 497 502 514 526 541 553 567 579 591 606 619 629 639 649"/></xmi:XMI>
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmlns:cas="http:///uima/cas.ecore" xmlns:xmi="http://www.omg.org/XMI"
+	xmlns:type3="http:///org/cleartk/syntax/dependency/type.ecore"
+	xmlns:type5="http:///org/cleartk/ne/type.ecore" xmlns:tcas="http:///uima/tcas.ecore"
+	xmlns:type4="http:///org/cleartk/token/type.ecore" xmlns:type2="http:///org/cleartk/syntax/constituent/type.ecore"
+	xmlns:type="http:///org/cleartk/score/type.ecore" xmlns:ne="http:///org/cleartk/type/ne.ecore"
+	xmlns:examples="http:///org/apache/uima/examples.ecore" xmi:version="2.0">
+	<cas:NULL xmi:id="0" />
+	<cas:Sofa xmi:id="1" sofaNum="1" sofaID="_InitialView"
+		mimeType="text"
+		sofaString="Where was the meeting between Amrozi Nurhasyim and Abu Bakar Bashir?" />
+	<tcas:DocumentAnnotation xmi:id="8" sofa="1"
+		begin="0" end="68" language="en" />
+	<examples:SourceDocumentInformation
+		xmi:id="13" sofa="1" begin="0" end="0"
+		uri="file:/home/ruil/workspace/git/QuestionAnalysis/src/main/resources/inputData/q0.txt"
+		offsetInSource="0" documentSize="68" lastSegment="false" />
+	<type4:Token xmi:id="21" sofa="1" begin="0" end="5" score="0.0"
+		pos="WRB" lemma="where" />
+	<type4:Token xmi:id="29" sofa="1" begin="6" end="9" score="0.0"
+		pos="VBD" lemma="be" />
+	<type4:Token xmi:id="37" sofa="1" begin="10" end="13"
+		score="0.0" pos="DT" lemma="the" />
+	<type4:Token xmi:id="45" sofa="1" begin="14" end="21"
+		score="0.0" pos="NN" lemma="meeting" />
+	<type4:Token xmi:id="53" sofa="1" begin="22" end="29"
+		score="0.0" pos="IN" lemma="between" />
+	<type4:Token xmi:id="61" sofa="1" begin="30" end="36"
+		score="0.0" pos="NNP" lemma="Amrozi" />
+	<type4:Token xmi:id="69" sofa="1" begin="37" end="46"
+		score="0.0" pos="NNP" lemma="Nurhasyim" />
+	<type4:Token xmi:id="77" sofa="1" begin="47" end="50"
+		score="0.0" pos="CC" lemma="and" />
+	<type4:Token xmi:id="85" sofa="1" begin="51" end="54"
+		score="0.0" pos="NNP" lemma="Abu" />
+	<type4:Token xmi:id="93" sofa="1" begin="55" end="60"
+		score="0.0" pos="NNP" lemma="Bakar" />
+	<type4:Token xmi:id="101" sofa="1" begin="61" end="67"
+		score="0.0" pos="NNP" lemma="Bashir" />
+	<type4:Token xmi:id="109" sofa="1" begin="67" end="68"
+		score="0.0" pos="." lemma="?" />
+	<type5:NamedEntityMention xmi:id="117" sofa="1"
+		begin="30" end="46" score="0.0" mentionType="PERSON" mentionedEntity="619" />
+	<type5:NamedEntityMention xmi:id="127" sofa="1"
+		begin="51" end="67" score="0.0" mentionType="PERSON" mentionedEntity="629" />
+	<type5:NamedEntityMention xmi:id="137" sofa="1"
+		begin="10" end="67" score="0.0" mentionedEntity="639" />
+	<type5:NamedEntityMention xmi:id="147" sofa="1"
+		begin="30" end="67" score="0.0" mentionedEntity="649" />
+	<type4:Sentence xmi:id="157" sofa="1" begin="0" end="68"
+		score="0.0" />
+	<type2:TreebankNode xmi:id="162" sofa="1" begin="0"
+		end="5" score="0.0" nodeType="WHADVP" leaf="false" parent="439"
+		children="176" />
+	<type2:TreebankNode xmi:id="176" sofa="1" begin="0"
+		end="5" score="0.0" nodeType="WRB" leaf="true" parent="162" children="" />
+	<type2:TreebankNode xmi:id="189" sofa="1" begin="6"
+		end="67" score="0.0" nodeType="SQ" leaf="false" parent="439" children="204 217" />
+	<type2:TreebankNode xmi:id="204" sofa="1" begin="6"
+		end="9" score="0.0" nodeType="VBD" leaf="true" parent="189" children="" />
+	<type2:TreebankNode xmi:id="217" sofa="1" begin="10"
+		end="67" score="0.0" nodeType="NP" leaf="false" parent="189" children="232 273" />
+	<type2:TreebankNode xmi:id="232" sofa="1" begin="10"
+		end="21" score="0.0" nodeType="NP" leaf="false" parent="217" children="247 260" />
+	<type2:TreebankNode xmi:id="247" sofa="1" begin="10"
+		end="13" score="0.0" nodeType="DT" leaf="true" parent="232" children="" />
+	<type2:TreebankNode xmi:id="260" sofa="1" begin="14"
+		end="21" score="0.0" nodeType="NN" leaf="true" parent="232" children="" />
+	<type2:TreebankNode xmi:id="273" sofa="1" begin="22"
+		end="67" score="0.0" nodeType="PP" leaf="false" parent="217" children="288 301" />
+	<type2:TreebankNode xmi:id="288" sofa="1" begin="22"
+		end="29" score="0.0" nodeType="IN" leaf="true" parent="273" children="" />
+	<type2:TreebankNode xmi:id="301" sofa="1" begin="30"
+		end="67" score="0.0" nodeType="NP" leaf="false" parent="273" children="317 358 371" />
+	<type2:TreebankNode xmi:id="317" sofa="1" begin="30"
+		end="46" score="0.0" nodeType="NP" leaf="false" parent="301" children="332 345" />
+	<type2:TreebankNode xmi:id="332" sofa="1" begin="30"
+		end="36" score="0.0" nodeType="NNP" leaf="true" parent="317" children="" />
+	<type2:TreebankNode xmi:id="345" sofa="1" begin="37"
+		end="46" score="0.0" nodeType="NNP" leaf="true" parent="317" children="" />
+	<type2:TreebankNode xmi:id="358" sofa="1" begin="47"
+		end="50" score="0.0" nodeType="CC" leaf="true" parent="301" children="" />
+	<type2:TreebankNode xmi:id="371" sofa="1" begin="51"
+		end="67" score="0.0" nodeType="NP" leaf="false" parent="301" children="387 400 413" />
+	<type2:TreebankNode xmi:id="387" sofa="1" begin="51"
+		end="54" score="0.0" nodeType="NNP" leaf="true" parent="371" children="" />
+	<type2:TreebankNode xmi:id="400" sofa="1" begin="55"
+		end="60" score="0.0" nodeType="NNP" leaf="true" parent="371" children="" />
+	<type2:TreebankNode xmi:id="413" sofa="1" begin="61"
+		end="67" score="0.0" nodeType="NNP" leaf="true" parent="371" children="" />
+	<type2:TreebankNode xmi:id="426" sofa="1" begin="67"
+		end="68" score="0.0" nodeType="." leaf="true" parent="439" children="" />
+	<type2:TopTreebankNode xmi:id="439" sofa="1"
+		begin="0" end="68" score="0.0" nodeType="SBARQ" leaf="false" children="162 189 426"
+		treebankParse="(SBARQ (WHADVP (WRB Where)) (SQ (VBD was) (NP (NP (DT the) (NN meeting)) (PP (IN between) (NP (NP (NNP Amrozi) (NNP Nurhasyim)) (CC and) (NP (NNP Abu) (NNP Bakar) (NNP Bashir)))))) (. ?))" />
+	<type3:DependencyRelation xmi:id="457" score="0.0"
+		Head="606" Relation="advmod" Child="502" />
+	<type3:DependencyRelation xmi:id="462" score="0.0"
+		Head="606" Relation="nsubj" Child="526" />
+	<type3:DependencyRelation xmi:id="467" score="0.0"
+		Head="526" Relation="det" Child="514" />
+	<type3:DependencyRelation xmi:id="472" score="0.0"
+		Head="526" Relation="prep_between" Child="553" />
+	<type3:DependencyRelation xmi:id="477" score="0.0"
+		Head="526" Relation="prep_between" Child="591" />
+	<type3:DependencyRelation xmi:id="482" score="0.0"
+		Head="553" Relation="nn" Child="541" />
+	<type3:DependencyRelation xmi:id="487" score="0.0"
+		Head="553" Relation="conj_and" Child="591" />
+	<type3:DependencyRelation xmi:id="492" score="0.0"
+		Head="591" Relation="nn" Child="567" />
+	<type3:DependencyRelation xmi:id="497" score="0.0"
+		Head="591" Relation="nn" Child="579" />
+	<type3:DependencyNode xmi:id="502" sofa="1" begin="0"
+		end="5" score="0.0" HeadRelations="457" ChildRelations="" />
+	<type3:DependencyNode xmi:id="514" sofa="1" begin="10"
+		end="13" score="0.0" HeadRelations="467" ChildRelations="" />
+	<type3:DependencyNode xmi:id="526" sofa="1" begin="14"
+		end="21" score="0.0" HeadRelations="462" ChildRelations="467 472 477" />
+	<type3:DependencyNode xmi:id="541" sofa="1" begin="30"
+		end="36" score="0.0" HeadRelations="482" ChildRelations="" />
+	<type3:DependencyNode xmi:id="553" sofa="1" begin="37"
+		end="46" score="0.0" HeadRelations="472" ChildRelations="482 487" />
+	<type3:DependencyNode xmi:id="567" sofa="1" begin="51"
+		end="54" score="0.0" HeadRelations="492" ChildRelations="" />
+	<type3:DependencyNode xmi:id="579" sofa="1" begin="55"
+		end="60" score="0.0" HeadRelations="497" ChildRelations="" />
+	<type3:DependencyNode xmi:id="591" sofa="1" begin="61"
+		end="67" score="0.0" HeadRelations="477 487" ChildRelations="492 497" />
+	<type3:TopDependencyNode xmi:id="606" sofa="1"
+		begin="6" end="9" score="0.0" HeadRelations="" ChildRelations="457 462" />
+	<type5:NamedEntity xmi:id="619" score="0.0" mentions="117" />
+	<type5:NamedEntity xmi:id="629" score="0.0" mentions="127" />
+	<type5:NamedEntity xmi:id="639" score="0.0" mentions="137" />
+	<type5:NamedEntity xmi:id="649" score="0.0" mentions="147" />
+	<cas:View sofa="1"
+		members="8 13 21 29 37 45 53 61 69 77 85 93 101 109 117 127 137 147 157 162 176 189 204 217 232 247 260 273 288 301 317 332 345 358 371 387 400 413 426 439 457 462 467 472 477 482 487 492 497 502 514 526 541 553 567 579 591 606 619 629 639 649" />
+</xmi:XMI>
